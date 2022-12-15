@@ -21,7 +21,7 @@ body{
 
 img{
     width: 1700px;
-    height: 800px;
+    height: 760px;
 
 }
 
@@ -33,4 +33,14 @@ button{
     border-radius: 5px;
 }
 
+@media (max-width: 900px) {
 
+    img {
+        width: 150%;
+    }
+
+    .container {
+        width: 100%;
+    }
+
+    
